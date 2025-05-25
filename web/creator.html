@@ -2,17 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, max-scale=0.9, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no">
     <title>Data Creator</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div id="content">
       <h1>Data Creator</h1>
-      <br>
-      <div id="sketchPadContainer">
-
+      <div>
+        <input type="text" id="student" placeholder='Type your name'>
+        <span id="instruction"></span>
+        <button id="advanceBtn">START</button>
       </div>
+      <br>
+      <div id="sketchPadContainer" style='visibility: hidden;'></div>
     </div>
 
     <script type="module" src="js/sketchPad.js"></script>
